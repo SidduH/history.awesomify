@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'/>
+        <title>history.awesomify</title>
+        <link rel='stylesheet' href='style.css'/>
+		<!--do not change to a cdn. keep local -->
+        <script src="scripts/jquery.js"></script>
+        <script src="scripts/jquery-ui.js"></script><!--dragging capabilities-->
+        <script src="scripts/sidebar.js"></script>
+		<script src='scripts/main.js'></script>
+    </head>
+    <body>
+        <div id='side-nav'>
+            <ul>
+                <li class='nav-item' id='history-link'>
+                    <button id="history"><b>History</b></button>
+                </li>
+                <li class='nav-item'>
+                    <button id="extensions">Extensions</button>
+                </li>
+                <li class='nav-item'>
+                  <button id="settings">Settings</button>
+                </li>
+            </ul>
+            <ul>
+                <li class='nav-item'>
+                    <button id='about'>About</button>
+                </li>
+                <li class='nav-item'>
+                    <button id='credits'>Credits</button>
+                </li>
+            </ul>
+        </div>
+        <div id='main'>
+            <div class='top-nav'>
+                <form>
+                    <img src='icons/search.svg' id='search-icon'/>
+                    <input id='search' type='search' placeholder='search'/>
+                </form>
+                <div class='collapsible'>
+                    <button class='tab currTab'>Visited</button>
+                    <button class='tab'>Analytics</button>
+                    <button class='tab'>Search</button>
+                </div>
+                <div class='expand'>
+                    <img src='icons/menu.svg' id='menu-icon'/>
+                </div>
+                <button id='clearHistory'>Delete History</button>
+            </div>
+            <div class='timeline'>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque ullamcorper, facilisis mauris efficitur, consectetur ipsum. Nunc tincidunt elit vel mauris lacinia, et ornare velit interdum. Proin consequat augue sapien, vitae pharetra ipsum imperdiet id. Maecenas placerat vehicula est faucibus semper. Aenean ac luctus magna. Maecenas porttitor ut augue eu euismod. Nulla semper lectus laoreet ligula cursus, eget ullamcorper enim euismod.
+
+Nulla eu nulla massa. Aliquam erat volutpat. Etiam id nulla purus. Suspendisse at est urna. Phasellus et arcu vestibulum, fermentum arcu non, posuere massa. Aliquam erat volutpat. Duis blandit risus sed nisi rhoncus dictum. Maecenas viverra justo at blandit tempus. Nam et magna lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ut porta mauris, et mattis ante.</p>
+            </div>
+			<div class='slider-parent'>
+            	<div class='slider-track'>
+					<div class='slider-container'>
+                		<div class='slider' draggable="true">
+							<img src='icons/more.svg' class='slider-icon'/>
+						</div>
+					</div>
+            	</div>
+			</div>
+        </div>
+    </body>
+</html>
