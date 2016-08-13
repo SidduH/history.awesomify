@@ -23,7 +23,7 @@ Regarding the side bar(#side-nav)
 #main {
     z-index: -1;
     position: absolute;
-    width : 80%;
+    width : 85%;
     bottom: 0;
     top: 0;
     right: 0;
@@ -57,7 +57,7 @@ Regarding the side bar(#side-nav)
 /*beginning of timeline styles*/
 .timeline {
     position: fixed;
-    width: 80%;
+    width: 85%;
     right: 0;
     top: 6em;
     bottom: 6em;
@@ -112,7 +112,7 @@ Regarding the side bar(#side-nav)
 .top-nav {
     position: fixed;
 
-    width : 80%;
+    width : 85%;
     top: 0;
     right: 0;
     left: 17em;
@@ -190,8 +190,8 @@ Regarding the side bar(#side-nav)
     top: 0;
     bottom: 0;
     padding-left: 0;
-    padding-right: 2em;
-    width: 15em;
+
+    width: 15%;
 }
 #side-nav > ul {
     list-style-type: none;
